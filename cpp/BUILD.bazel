@@ -1,0 +1,13 @@
+cc_library(
+    name = "libfoo",
+    srcs = ["libfoo/foo.cpp"],
+    hdrs = ["libfoo/foo.h"],
+    visibility = ["//visibility:public"],
+)
+
+cc_binary(
+    name = "main",
+    srcs = ["main.cpp"],
+    visibility = ["//visibility:public"],
+    deps = [":libfoo"],  # Dependency on the libfoo library
+)
