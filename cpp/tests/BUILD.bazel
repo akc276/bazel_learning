@@ -1,0 +1,8 @@
+cc_test(
+    name="testfoo",
+    srcs = ["test_foo.cpp"],
+    deps = [
+        "//cpp:libfoo",  # Dependency on the libfoo library
+        "@googletest//:gtest_main",  # Dependency on Google Test
+    ],
+)
