@@ -1,0 +1,1702 @@
+event {
+id {
+  started {
+  }
+}
+children {
+  progress {
+  }
+}
+children {
+  unstructured_command_line {
+  }
+}
+children {
+  structured_command_line {
+    command_line_label: "original"
+  }
+}
+children {
+  structured_command_line {
+    command_line_label: "canonical"
+  }
+}
+children {
+  structured_command_line {
+    command_line_label: "tool"
+  }
+}
+children {
+  build_metadata {
+  }
+}
+children {
+  options_parsed {
+  }
+}
+children {
+  workspace_status {
+  }
+}
+children {
+  pattern {
+    pattern: "//hello_from_rule:sayhello"
+  }
+}
+children {
+  build_finished {
+  }
+}
+started {
+  uuid: "567c6871-8876-4ef4-a009-bad9edbf2c60"
+  start_time_millis: 1750669213809
+  build_tool_version: "8.2.1"
+  options_description: "--build_event_text_file=events.log"
+  command: "build"
+  working_directory: "/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+  workspace_directory: "/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+  server_pid: 4822
+  start_time {
+    seconds: 1750669213
+    nanos: 809000000
+  }
+}
+}
+
+event {
+id {
+  build_metadata {
+  }
+}
+build_metadata {
+}
+}
+
+event {
+id {
+  unstructured_command_line {
+  }
+}
+unstructured_command_line {
+  args: "build"
+  args: "--startup_time=21"
+  args: "--command_wait_time=0"
+  args: "--binary_path=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin/bazel"
+  args: "--rc_source=client"
+  args: "--default_override=0:common=--isatty=1"
+  args: "--default_override=0:common=--terminal_columns=160"
+  args: "--client_env=NVM_INC=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/include/node"
+  args: "--client_env=TERM_PROGRAM=vscode"
+  args: "--client_env=NVM_CD_FLAGS=-q"
+  args: "--client_env=TERM=xterm-256color"
+  args: "--client_env=SHELL=/bin/zsh"
+  args: "--client_env=TMPDIR=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/"
+  args: "--client_env=CONDA_SHLVL=1"
+  args: "--client_env=TERM_PROGRAM_VERSION=1.100.2"
+  args: "--client_env=CONDA_PROMPT_MODIFIER=(base) "
+  args: "--client_env=GSETTINGS_SCHEMA_DIR_CONDA_BACKUP="
+  args: "--client_env=ORIGINAL_XDG_CURRENT_DESKTOP=undefined"
+  args: "--client_env=MallocNanoZone=0"
+  args: "--client_env=NVM_DIR=/Users/ankit.kr.chahal/.nvm"
+  args: "--client_env=USER=ankit.kr.chahal"
+  args: "--client_env=COMMAND_MODE=unix2003"
+  args: "--client_env=CONDA_EXE=/opt/anaconda3/bin/conda"
+  args: "--client_env=SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.g5CukWGoCe/Listeners"
+  args: "--client_env=__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0"
+  args: "--client_env=PYDEVD_DISABLE_FILE_VALIDATION=1"
+  args: "--client_env=_CE_CONDA="
+  args: "--client_env=PATH=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ankit.kr.chahal/Documents/Codes/.venv/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin"
+  args: "--client_env=GSETTINGS_SCHEMA_DIR=/opt/anaconda3/share/glib-2.0/schemas"
+  args: "--client_env=LaunchInstanceID=E5AEDA80-37B0-4462-8F21-531F258AD86B"
+  args: "--client_env=CONDA_PREFIX=/opt/anaconda3"
+  args: "--client_env=__CFBundleIdentifier=com.microsoft.VSCode"
+  args: "--client_env=PWD=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+  args: "--client_env=JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.1"
+  args: "--client_env=LANG=en_US.UTF-8"
+  args: "--client_env=BUNDLED_DEBUGPY_PATH=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/bundled/libs/debugpy"
+  args: "--client_env=VSCODE_GIT_ASKPASS_EXTRA_ARGS="
+  args: "--client_env=XPC_FLAGS=0x0"
+  args: "--client_env=_CE_M="
+  args: "--client_env=XPC_SERVICE_NAME=0"
+  args: "--client_env=VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-2afe11e3607691e2.txt"
+  args: "--client_env=SHLVL=2"
+  args: "--client_env=HOME=/Users/ankit.kr.chahal"
+  args: "--client_env=VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"
+  args: "--client_env=CONDA_PYTHON_EXE=/opt/anaconda3/bin/python"
+  args: "--client_env=LOGNAME=ankit.kr.chahal"
+  args: "--client_env=VSCODE_GIT_IPC_HANDLE=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/vscode-git-e966c9294a.sock"
+  args: "--client_env=VSCODE_ENV_PREPEND=PATH=/Users/ankit.kr.chahal/Documents/Codes/.venv/bin\\x3a:PS1=(.venv) "
+  args: "--client_env=CONDA_DEFAULT_ENV=base"
+  args: "--client_env=NVM_BIN=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin"
+  args: "--client_env=VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)"
+  args: "--client_env=GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh"
+  args: "--client_env=VCODE_ENV_SETUP_DONE=1"
+  args: "--client_env=SECURITYSESSIONID=186b1"
+  args: "--client_env=COLORTERM=truecolor"
+  args: "--client_env=_=/opt/homebrew/bin/aspect"
+  args: "--client_env=ASPECT_REENTRANT=true"
+  args: "--client_cwd=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+  args: "//hello_from_rule:sayhello"
+  args: "--build_event_text_file=events.log"
+}
+}
+
+event {
+id {
+  options_parsed {
+  }
+}
+options_parsed {
+  startup_options: "--max_idle_secs=10800"
+  startup_options: "--noshutdown_on_low_sys_mem"
+  startup_options: "--connect_timeout_secs=30"
+  startup_options: "--output_user_root=/var/tmp/_bazel_ankit.kr.chahal"
+  startup_options: "--output_base=/private/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a"
+  startup_options: "--failure_detail_out=/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a/failure_detail.rawproto"
+  startup_options: "--idle_server_tasks"
+  startup_options: "--write_command_log"
+  startup_options: "--nowatchfs"
+  startup_options: "--nofatal_event_bus_exceptions"
+  startup_options: "--nowindows_enable_symlinks"
+  startup_options: "--noclient_debug"
+  cmd_line: "--build_event_text_file=events.log"
+  explicit_cmd_line: "--build_event_text_file=events.log"
+  invocation_policy {
+  }
+}
+}
+
+event {
+id {
+  structured_command_line {
+    command_line_label: "original"
+  }
+}
+structured_command_line {
+  command_line_label: "original"
+  sections {
+    section_label: "executable"
+    chunk_list {
+      chunk: "bazel"
+    }
+  }
+  sections {
+    section_label: "startup options"
+    option_list {
+    }
+  }
+  sections {
+    section_label: "command"
+    chunk_list {
+      chunk: "build"
+    }
+  }
+  sections {
+    section_label: "command options"
+    option_list {
+      option {
+        combined_form: "--rc_source=client"
+        option_name: "rc_source"
+        option_value: "client"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--default_override=0:common=--isatty=1"
+        option_name: "default_override"
+        option_value: "0:common=--isatty=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--default_override=0:common=--terminal_columns=160"
+        option_name: "default_override"
+        option_value: "0:common=--terminal_columns=160"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--startup_time=21"
+        option_name: "startup_time"
+        option_value: "21"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--command_wait_time=0"
+        option_name: "command_wait_time"
+        option_value: "0"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--binary_path=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin/bazel"
+        option_name: "binary_path"
+        option_value: "/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin/bazel"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_INC=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/include/node"
+        option_name: "client_env"
+        option_value: "NVM_INC=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/include/node"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TERM_PROGRAM=vscode"
+        option_name: "client_env"
+        option_value: "TERM_PROGRAM=vscode"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_CD_FLAGS=-q"
+        option_name: "client_env"
+        option_value: "NVM_CD_FLAGS=-q"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TERM=xterm-256color"
+        option_name: "client_env"
+        option_value: "TERM=xterm-256color"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SHELL=/bin/zsh"
+        option_name: "client_env"
+        option_value: "SHELL=/bin/zsh"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TMPDIR=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/"
+        option_name: "client_env"
+        option_value: "TMPDIR=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_SHLVL=1"
+        option_name: "client_env"
+        option_value: "CONDA_SHLVL=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TERM_PROGRAM_VERSION=1.100.2"
+        option_name: "client_env"
+        option_value: "TERM_PROGRAM_VERSION=1.100.2"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_PROMPT_MODIFIER=(base) "
+        option_name: "client_env"
+        option_value: "CONDA_PROMPT_MODIFIER=(base) "
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=GSETTINGS_SCHEMA_DIR_CONDA_BACKUP="
+        option_name: "client_env"
+        option_value: "GSETTINGS_SCHEMA_DIR_CONDA_BACKUP="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=ORIGINAL_XDG_CURRENT_DESKTOP=undefined"
+        option_name: "client_env"
+        option_value: "ORIGINAL_XDG_CURRENT_DESKTOP=undefined"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=MallocNanoZone=0"
+        option_name: "client_env"
+        option_value: "MallocNanoZone=0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_DIR=/Users/ankit.kr.chahal/.nvm"
+        option_name: "client_env"
+        option_value: "NVM_DIR=/Users/ankit.kr.chahal/.nvm"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=USER=ankit.kr.chahal"
+        option_name: "client_env"
+        option_value: "USER=ankit.kr.chahal"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=COMMAND_MODE=unix2003"
+        option_name: "client_env"
+        option_value: "COMMAND_MODE=unix2003"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_EXE=/opt/anaconda3/bin/conda"
+        option_name: "client_env"
+        option_value: "CONDA_EXE=/opt/anaconda3/bin/conda"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.g5CukWGoCe/Listeners"
+        option_name: "client_env"
+        option_value: "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.g5CukWGoCe/Listeners"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0"
+        option_name: "client_env"
+        option_value: "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=PYDEVD_DISABLE_FILE_VALIDATION=1"
+        option_name: "client_env"
+        option_value: "PYDEVD_DISABLE_FILE_VALIDATION=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=_CE_CONDA="
+        option_name: "client_env"
+        option_value: "_CE_CONDA="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=PATH=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ankit.kr.chahal/Documents/Codes/.venv/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin"
+        option_name: "client_env"
+        option_value: "PATH=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ankit.kr.chahal/Documents/Codes/.venv/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=GSETTINGS_SCHEMA_DIR=/opt/anaconda3/share/glib-2.0/schemas"
+        option_name: "client_env"
+        option_value: "GSETTINGS_SCHEMA_DIR=/opt/anaconda3/share/glib-2.0/schemas"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=LaunchInstanceID=E5AEDA80-37B0-4462-8F21-531F258AD86B"
+        option_name: "client_env"
+        option_value: "LaunchInstanceID=E5AEDA80-37B0-4462-8F21-531F258AD86B"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_PREFIX=/opt/anaconda3"
+        option_name: "client_env"
+        option_value: "CONDA_PREFIX=/opt/anaconda3"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=__CFBundleIdentifier=com.microsoft.VSCode"
+        option_name: "client_env"
+        option_value: "__CFBundleIdentifier=com.microsoft.VSCode"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=PWD=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        option_name: "client_env"
+        option_value: "PWD=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.1"
+        option_name: "client_env"
+        option_value: "JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=LANG=en_US.UTF-8"
+        option_name: "client_env"
+        option_value: "LANG=en_US.UTF-8"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=BUNDLED_DEBUGPY_PATH=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/bundled/libs/debugpy"
+        option_name: "client_env"
+        option_value: "BUNDLED_DEBUGPY_PATH=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/bundled/libs/debugpy"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_ASKPASS_EXTRA_ARGS="
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_ASKPASS_EXTRA_ARGS="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=XPC_FLAGS=0x0"
+        option_name: "client_env"
+        option_value: "XPC_FLAGS=0x0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=_CE_M="
+        option_name: "client_env"
+        option_value: "_CE_M="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=XPC_SERVICE_NAME=0"
+        option_name: "client_env"
+        option_value: "XPC_SERVICE_NAME=0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-2afe11e3607691e2.txt"
+        option_name: "client_env"
+        option_value: "VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-2afe11e3607691e2.txt"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SHLVL=2"
+        option_name: "client_env"
+        option_value: "SHLVL=2"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=HOME=/Users/ankit.kr.chahal"
+        option_name: "client_env"
+        option_value: "HOME=/Users/ankit.kr.chahal"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_PYTHON_EXE=/opt/anaconda3/bin/python"
+        option_name: "client_env"
+        option_value: "CONDA_PYTHON_EXE=/opt/anaconda3/bin/python"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=LOGNAME=ankit.kr.chahal"
+        option_name: "client_env"
+        option_value: "LOGNAME=ankit.kr.chahal"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_IPC_HANDLE=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/vscode-git-e966c9294a.sock"
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_IPC_HANDLE=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/vscode-git-e966c9294a.sock"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_ENV_PREPEND=PATH=/Users/ankit.kr.chahal/Documents/Codes/.venv/bin\\x3a:PS1=(.venv) "
+        option_name: "client_env"
+        option_value: "VSCODE_ENV_PREPEND=PATH=/Users/ankit.kr.chahal/Documents/Codes/.venv/bin\\x3a:PS1=(.venv) "
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_DEFAULT_ENV=base"
+        option_name: "client_env"
+        option_value: "CONDA_DEFAULT_ENV=base"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_BIN=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin"
+        option_name: "client_env"
+        option_value: "NVM_BIN=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)"
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh"
+        option_name: "client_env"
+        option_value: "GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VCODE_ENV_SETUP_DONE=1"
+        option_name: "client_env"
+        option_value: "VCODE_ENV_SETUP_DONE=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SECURITYSESSIONID=186b1"
+        option_name: "client_env"
+        option_value: "SECURITYSESSIONID=186b1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=COLORTERM=truecolor"
+        option_name: "client_env"
+        option_value: "COLORTERM=truecolor"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=_=/opt/homebrew/bin/aspect"
+        option_name: "client_env"
+        option_value: "_=/opt/homebrew/bin/aspect"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=ASPECT_REENTRANT=true"
+        option_name: "client_env"
+        option_value: "ASPECT_REENTRANT=true"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_cwd=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        option_name: "client_cwd"
+        option_value: "/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--build_event_text_file=events.log"
+        option_name: "build_event_text_file"
+        option_value: "events.log"
+        effect_tags: AFFECTS_OUTPUTS
+      }
+    }
+  }
+  sections {
+    section_label: "residual"
+    chunk_list {
+      chunk: "//hello_from_rule:sayhello"
+    }
+  }
+}
+}
+
+event {
+id {
+  structured_command_line {
+    command_line_label: "canonical"
+  }
+}
+structured_command_line {
+  command_line_label: "canonical"
+  sections {
+    section_label: "executable"
+    chunk_list {
+      chunk: "bazel"
+    }
+  }
+  sections {
+    section_label: "startup options"
+    option_list {
+      option {
+        combined_form: "--max_idle_secs=10800"
+        option_name: "max_idle_secs"
+        option_value: "10800"
+        effect_tags: EAGERNESS_TO_EXIT
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--noshutdown_on_low_sys_mem"
+        option_name: "shutdown_on_low_sys_mem"
+        option_value: "0"
+        effect_tags: EAGERNESS_TO_EXIT
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--connect_timeout_secs=30"
+        option_name: "connect_timeout_secs"
+        option_value: "30"
+        effect_tags: BAZEL_INTERNAL_CONFIGURATION
+      }
+      option {
+        combined_form: "--output_user_root=/var/tmp/_bazel_ankit.kr.chahal"
+        option_name: "output_user_root"
+        option_value: "/var/tmp/_bazel_ankit.kr.chahal"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--install_base=/var/tmp/_bazel_ankit.kr.chahal/install/bb8c1c55e4be7310c4a9649bfa5758bf"
+        option_name: "install_base"
+        option_value: "/var/tmp/_bazel_ankit.kr.chahal/install/bb8c1c55e4be7310c4a9649bfa5758bf"
+        effect_tags: CHANGES_INPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--install_md5=bb8c1c55e4be7310c4a9649bfa5758bf"
+        option_name: "install_md5"
+        option_value: "bb8c1c55e4be7310c4a9649bfa5758bf"
+        effect_tags: LOSES_INCREMENTAL_STATE
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--lock_install_base"
+        option_name: "lock_install_base"
+        option_value: "1"
+        effect_tags: BAZEL_INTERNAL_CONFIGURATION
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--output_base=/private/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a"
+        option_name: "output_base"
+        option_value: "/private/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--workspace_directory=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        option_name: "workspace_directory"
+        option_value: "/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        effect_tags: CHANGES_INPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--default_system_javabase=/opt/homebrew/Cellar/openjdk/23.0.1"
+        option_name: "default_system_javabase"
+        option_value: "/opt/homebrew/Cellar/openjdk/23.0.1"
+        effect_tags: CHANGES_INPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--failure_detail_out=/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a/failure_detail.rawproto"
+        option_name: "failure_detail_out"
+        option_value: "/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a/failure_detail.rawproto"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--idle_server_tasks"
+        option_name: "idle_server_tasks"
+        option_value: "1"
+        effect_tags: LOSES_INCREMENTAL_STATE
+        effect_tags: HOST_MACHINE_RESOURCE_OPTIMIZATIONS
+      }
+      option {
+        combined_form: "--write_command_log"
+        option_name: "write_command_log"
+        option_value: "1"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--nowatchfs"
+        option_name: "watchfs"
+        option_value: "0"
+        effect_tags: UNKNOWN
+        metadata_tags: DEPRECATED
+      }
+      option {
+        combined_form: "--nofatal_event_bus_exceptions"
+        option_name: "fatal_event_bus_exceptions"
+        option_value: "0"
+        effect_tags: EAGERNESS_TO_EXIT
+        effect_tags: LOSES_INCREMENTAL_STATE
+      }
+      option {
+        combined_form: "--nowindows_enable_symlinks"
+        option_name: "windows_enable_symlinks"
+        option_value: "0"
+        effect_tags: BAZEL_INTERNAL_CONFIGURATION
+      }
+      option {
+        combined_form: "--client_debug=false"
+        option_name: "client_debug"
+        option_value: "false"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+      }
+      option {
+        combined_form: "--product_name=Bazel"
+        option_name: "product_name"
+        option_value: "Bazel"
+        effect_tags: LOSES_INCREMENTAL_STATE
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--option_sources="
+        option_name: "option_sources"
+        effect_tags: AFFECTS_OUTPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--ignore_all_rc_files"
+        option_name: "ignore_all_rc_files"
+        option_value: "1"
+        effect_tags: CHANGES_INPUTS
+      }
+    }
+  }
+  sections {
+    section_label: "command"
+    chunk_list {
+      chunk: "build"
+    }
+  }
+  sections {
+    section_label: "command options"
+    option_list {
+      option {
+        combined_form: "--isatty=1"
+        option_name: "isatty"
+        option_value: "1"
+        effect_tags: UNKNOWN
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--terminal_columns=160"
+        option_name: "terminal_columns"
+        option_value: "160"
+        effect_tags: UNKNOWN
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--rc_source=client"
+        option_name: "rc_source"
+        option_value: "client"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--default_override=0:common=--isatty=1"
+        option_name: "default_override"
+        option_value: "0:common=--isatty=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--default_override=0:common=--terminal_columns=160"
+        option_name: "default_override"
+        option_value: "0:common=--terminal_columns=160"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--startup_time=21"
+        option_name: "startup_time"
+        option_value: "21"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--command_wait_time=0"
+        option_name: "command_wait_time"
+        option_value: "0"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--binary_path=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin/bazel"
+        option_name: "binary_path"
+        option_value: "/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin/bazel"
+        effect_tags: AFFECTS_OUTPUTS
+        effect_tags: BAZEL_MONITORING
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_INC=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/include/node"
+        option_name: "client_env"
+        option_value: "NVM_INC=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/include/node"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TERM_PROGRAM=vscode"
+        option_name: "client_env"
+        option_value: "TERM_PROGRAM=vscode"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_CD_FLAGS=-q"
+        option_name: "client_env"
+        option_value: "NVM_CD_FLAGS=-q"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TERM=xterm-256color"
+        option_name: "client_env"
+        option_value: "TERM=xterm-256color"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SHELL=/bin/zsh"
+        option_name: "client_env"
+        option_value: "SHELL=/bin/zsh"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TMPDIR=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/"
+        option_name: "client_env"
+        option_value: "TMPDIR=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_SHLVL=1"
+        option_name: "client_env"
+        option_value: "CONDA_SHLVL=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=TERM_PROGRAM_VERSION=1.100.2"
+        option_name: "client_env"
+        option_value: "TERM_PROGRAM_VERSION=1.100.2"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_PROMPT_MODIFIER=(base) "
+        option_name: "client_env"
+        option_value: "CONDA_PROMPT_MODIFIER=(base) "
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=GSETTINGS_SCHEMA_DIR_CONDA_BACKUP="
+        option_name: "client_env"
+        option_value: "GSETTINGS_SCHEMA_DIR_CONDA_BACKUP="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=ORIGINAL_XDG_CURRENT_DESKTOP=undefined"
+        option_name: "client_env"
+        option_value: "ORIGINAL_XDG_CURRENT_DESKTOP=undefined"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=MallocNanoZone=0"
+        option_name: "client_env"
+        option_value: "MallocNanoZone=0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_DIR=/Users/ankit.kr.chahal/.nvm"
+        option_name: "client_env"
+        option_value: "NVM_DIR=/Users/ankit.kr.chahal/.nvm"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=USER=ankit.kr.chahal"
+        option_name: "client_env"
+        option_value: "USER=ankit.kr.chahal"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=COMMAND_MODE=unix2003"
+        option_name: "client_env"
+        option_value: "COMMAND_MODE=unix2003"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_EXE=/opt/anaconda3/bin/conda"
+        option_name: "client_env"
+        option_value: "CONDA_EXE=/opt/anaconda3/bin/conda"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.g5CukWGoCe/Listeners"
+        option_name: "client_env"
+        option_value: "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.g5CukWGoCe/Listeners"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0"
+        option_name: "client_env"
+        option_value: "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=PYDEVD_DISABLE_FILE_VALIDATION=1"
+        option_name: "client_env"
+        option_value: "PYDEVD_DISABLE_FILE_VALIDATION=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=_CE_CONDA="
+        option_name: "client_env"
+        option_value: "_CE_CONDA="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=PATH=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ankit.kr.chahal/Documents/Codes/.venv/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin"
+        option_name: "client_env"
+        option_value: "PATH=/Users/ankit.kr.chahal/Library/Caches/bazelisk/downloads/bazelbuild/bazel-8.2.1-darwin-arm64/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ankit.kr.chahal/Documents/Codes/.venv/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/Cellar/openjdk/23.0.1/bin:/opt/homebrew/bin:/Users/ankit.kr.chahal/.gem/bin:/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin:/Users/ankit.kr.chahal/Documents/Codes/installables/repos/flutter/bin"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=GSETTINGS_SCHEMA_DIR=/opt/anaconda3/share/glib-2.0/schemas"
+        option_name: "client_env"
+        option_value: "GSETTINGS_SCHEMA_DIR=/opt/anaconda3/share/glib-2.0/schemas"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=LaunchInstanceID=E5AEDA80-37B0-4462-8F21-531F258AD86B"
+        option_name: "client_env"
+        option_value: "LaunchInstanceID=E5AEDA80-37B0-4462-8F21-531F258AD86B"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_PREFIX=/opt/anaconda3"
+        option_name: "client_env"
+        option_value: "CONDA_PREFIX=/opt/anaconda3"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=__CFBundleIdentifier=com.microsoft.VSCode"
+        option_name: "client_env"
+        option_value: "__CFBundleIdentifier=com.microsoft.VSCode"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=PWD=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        option_name: "client_env"
+        option_value: "PWD=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.1"
+        option_name: "client_env"
+        option_value: "JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=LANG=en_US.UTF-8"
+        option_name: "client_env"
+        option_value: "LANG=en_US.UTF-8"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=BUNDLED_DEBUGPY_PATH=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/bundled/libs/debugpy"
+        option_name: "client_env"
+        option_value: "BUNDLED_DEBUGPY_PATH=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/bundled/libs/debugpy"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_ASKPASS_EXTRA_ARGS="
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_ASKPASS_EXTRA_ARGS="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=XPC_FLAGS=0x0"
+        option_name: "client_env"
+        option_value: "XPC_FLAGS=0x0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=_CE_M="
+        option_name: "client_env"
+        option_value: "_CE_M="
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=XPC_SERVICE_NAME=0"
+        option_name: "client_env"
+        option_value: "XPC_SERVICE_NAME=0"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-2afe11e3607691e2.txt"
+        option_name: "client_env"
+        option_value: "VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/ankit.kr.chahal/.vscode/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-2afe11e3607691e2.txt"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SHLVL=2"
+        option_name: "client_env"
+        option_value: "SHLVL=2"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=HOME=/Users/ankit.kr.chahal"
+        option_name: "client_env"
+        option_value: "HOME=/Users/ankit.kr.chahal"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_PYTHON_EXE=/opt/anaconda3/bin/python"
+        option_name: "client_env"
+        option_value: "CONDA_PYTHON_EXE=/opt/anaconda3/bin/python"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=LOGNAME=ankit.kr.chahal"
+        option_name: "client_env"
+        option_value: "LOGNAME=ankit.kr.chahal"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_IPC_HANDLE=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/vscode-git-e966c9294a.sock"
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_IPC_HANDLE=/var/folders/vs/rmr7chhs0t329cdx9w0tjft00000gn/T/vscode-git-e966c9294a.sock"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_ENV_PREPEND=PATH=/Users/ankit.kr.chahal/Documents/Codes/.venv/bin\\x3a:PS1=(.venv) "
+        option_name: "client_env"
+        option_value: "VSCODE_ENV_PREPEND=PATH=/Users/ankit.kr.chahal/Documents/Codes/.venv/bin\\x3a:PS1=(.venv) "
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=CONDA_DEFAULT_ENV=base"
+        option_name: "client_env"
+        option_value: "CONDA_DEFAULT_ENV=base"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=NVM_BIN=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin"
+        option_name: "client_env"
+        option_value: "NVM_BIN=/Users/ankit.kr.chahal/.nvm/versions/node/v22.16.0/bin"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)"
+        option_name: "client_env"
+        option_value: "VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh"
+        option_name: "client_env"
+        option_value: "GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=VCODE_ENV_SETUP_DONE=1"
+        option_name: "client_env"
+        option_value: "VCODE_ENV_SETUP_DONE=1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=SECURITYSESSIONID=186b1"
+        option_name: "client_env"
+        option_value: "SECURITYSESSIONID=186b1"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=COLORTERM=truecolor"
+        option_name: "client_env"
+        option_value: "COLORTERM=truecolor"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=_=/opt/homebrew/bin/aspect"
+        option_name: "client_env"
+        option_value: "_=/opt/homebrew/bin/aspect"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_env=ASPECT_REENTRANT=true"
+        option_name: "client_env"
+        option_value: "ASPECT_REENTRANT=true"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--client_cwd=/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        option_name: "client_cwd"
+        option_value: "/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning"
+        effect_tags: CHANGES_INPUTS
+        metadata_tags: HIDDEN
+      }
+      option {
+        combined_form: "--build_event_text_file=events.log"
+        option_name: "build_event_text_file"
+        option_value: "events.log"
+        effect_tags: AFFECTS_OUTPUTS
+      }
+    }
+  }
+  sections {
+    section_label: "residual"
+    chunk_list {
+      chunk: "//hello_from_rule:sayhello"
+    }
+  }
+}
+}
+
+event {
+id {
+  structured_command_line {
+    command_line_label: "tool"
+  }
+}
+structured_command_line {
+}
+}
+
+event {
+id {
+  pattern {
+    pattern: "//hello_from_rule:sayhello"
+  }
+}
+children {
+  target_configured {
+    label: "//hello_from_rule:sayhello"
+  }
+}
+expanded {
+}
+}
+
+event {
+id {
+  progress {
+  }
+}
+children {
+  progress {
+    opaque_count: 1
+  }
+}
+children {
+  workspace {
+  }
+}
+progress {
+  stderr: "\033[32mComputing main repo mapping:\033[0m \n\r\033[1A\033[K\033[32mLoading:\033[0m \n\r\033[1A\033[K\033[32mLoading:\033[0m 0 packages loaded\n"
+}
+}
+
+event {
+id {
+  workspace {
+  }
+}
+workspace_info {
+  local_exec_root: "/private/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a/execroot/_main"
+}
+}
+
+event {
+id {
+  progress {
+    opaque_count: 1
+  }
+}
+children {
+  progress {
+    opaque_count: 2
+  }
+}
+children {
+  configuration {
+    id: "e5d0b45255bbe29fcc274b3efed42ccbd4b88bf8d5a015d3138aed480339a787"
+  }
+}
+progress {
+}
+}
+
+event {
+id {
+  configuration {
+    id: "e5d0b45255bbe29fcc274b3efed42ccbd4b88bf8d5a015d3138aed480339a787"
+  }
+}
+configuration {
+  mnemonic: "darwin_arm64-fastbuild"
+  platform_name: "darwin_arm64"
+  cpu: "darwin_arm64"
+  make_variable {
+    key: "BINDIR"
+    value: "bazel-out/darwin_arm64-fastbuild/bin"
+  }
+  make_variable {
+    key: "COMPILATION_MODE"
+    value: "fastbuild"
+  }
+  make_variable {
+    key: "GENDIR"
+    value: "bazel-out/darwin_arm64-fastbuild/bin"
+  }
+  make_variable {
+    key: "TARGET_CPU"
+    value: "darwin_arm64"
+  }
+}
+}
+
+event {
+id {
+  workspace_status {
+  }
+}
+workspace_status {
+  item {
+    key: "BUILD_EMBED_LABEL"
+  }
+  item {
+    key: "BUILD_HOST"
+    value: "Ankits-MacBook-Pro.local"
+  }
+  item {
+    key: "BUILD_TIMESTAMP"
+    value: "1750669213"
+  }
+  item {
+    key: "BUILD_USER"
+    value: "ankit.kr.chahal"
+  }
+  item {
+    key: "FORMATTED_DATE"
+    value: "2025 Jun 23 09 00 13 Mon"
+  }
+}
+}
+
+event {
+id {
+  progress {
+    opaque_count: 2
+  }
+}
+children {
+  progress {
+    opaque_count: 3
+  }
+}
+children {
+  configuration {
+    id: "0de042f7f216bd39770efda4fe9ac141f679167720307fb3637d83903e80fc71"
+  }
+}
+progress {
+  stderr: "\r\033[1A\033[K\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\r\033[1A\033[K\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\n\r\033[1A\033[K\r\033[1A\033[K\033[31m\033[1mERROR: \033[0m/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning/hello_from_rule/BUILD.bazel:2:10: in say_hello rule //hello_from_rule:sayhello: \nTraceback (most recent call last):\n\tFile \"/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning/hello_from_rule/say_hello.bzl\", line 3, column 9, in _impl\n\t\tfail(\"This is a failure message from the rule\")\nError in fail: This is a failure message from the rule\n\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\n"
+}
+}
+
+event {
+id {
+  configuration {
+    id: "0de042f7f216bd39770efda4fe9ac141f679167720307fb3637d83903e80fc71"
+  }
+}
+configuration {
+  mnemonic: "darwin_arm64-fastbuild"
+  platform_name: "darwin_arm64"
+  cpu: "darwin_arm64"
+  make_variable {
+    key: "BINDIR"
+    value: "bazel-out/darwin_arm64-fastbuild/bin"
+  }
+  make_variable {
+    key: "COMPILATION_MODE"
+    value: "fastbuild"
+  }
+  make_variable {
+    key: "GENDIR"
+    value: "bazel-out/darwin_arm64-fastbuild/bin"
+  }
+  make_variable {
+    key: "TARGET_CPU"
+    value: "darwin_arm64"
+  }
+}
+}
+
+event {
+id {
+  progress {
+    opaque_count: 3
+  }
+}
+children {
+  progress {
+    opaque_count: 4
+  }
+}
+children {
+  configured_label {
+    label: "//hello_from_rule:sayhello"
+    configuration {
+      id: "0de042f7f216bd39770efda4fe9ac141f679167720307fb3637d83903e80fc71"
+    }
+  }
+}
+progress {
+}
+}
+
+event {
+id {
+  configured_label {
+    label: "//hello_from_rule:sayhello"
+    configuration {
+      id: "0de042f7f216bd39770efda4fe9ac141f679167720307fb3637d83903e80fc71"
+    }
+  }
+}
+aborted {
+  reason: ANALYSIS_FAILURE
+  description: "in say_hello rule //hello_from_rule:sayhello: \nTraceback (most recent call last):\n\tFile \"/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning/hello_from_rule/say_hello.bzl\", line 3, column 9, in _impl\n\t\tfail(\"This is a failure message from the rule\")\nError in fail: This is a failure message from the rule"
+}
+}
+
+event {
+id {
+  target_configured {
+    label: "//hello_from_rule:sayhello"
+  }
+}
+children {
+  configured_label {
+    label: "//hello_from_rule:sayhello"
+    configuration {
+      id: "0de042f7f216bd39770efda4fe9ac141f679167720307fb3637d83903e80fc71"
+    }
+  }
+}
+aborted {
+  reason: ANALYSIS_FAILURE
+}
+}
+
+event {
+id {
+  progress {
+    opaque_count: 4
+  }
+}
+children {
+  progress {
+    opaque_count: 5
+  }
+}
+children {
+  convenience_symlinks_identified {
+  }
+}
+progress {
+  stderr: "\r\033[1A\033[K\r\033[1A\033[K\033[31m\033[1mERROR: \033[0m/Users/ankit.kr.chahal/Documents/Codes/CI_CD/bazel/bazel_learning/hello_from_rule/BUILD.bazel:2:10: Analysis of target \'//hello_from_rule:sayhello\' failed\n\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\n"
+}
+}
+
+event {
+id {
+  convenience_symlinks_identified {
+  }
+}
+convenience_symlinks_identified {
+  convenience_symlinks {
+    path: "bazel-bin"
+    action: CREATE
+    target: "execroot/_main/bazel-out/darwin_arm64-fastbuild/bin"
+  }
+  convenience_symlinks {
+    path: "bazel-testlogs"
+    action: CREATE
+    target: "execroot/_main/bazel-out/darwin_arm64-fastbuild/testlogs"
+  }
+  convenience_symlinks {
+    path: "bazel-genfiles"
+    action: DELETE
+  }
+  convenience_symlinks {
+    path: "bazel-out"
+    action: CREATE
+    target: "execroot/_main/bazel-out"
+  }
+  convenience_symlinks {
+    path: "bazel-bazel_learning"
+    action: CREATE
+    target: "execroot/_main"
+  }
+}
+}
+
+event {
+id {
+  build_finished {
+  }
+}
+children {
+  build_tool_logs {
+  }
+}
+children {
+  build_metrics {
+  }
+}
+finished {
+  finish_time_millis: 1750669213862
+  exit_code {
+    name: "PARSING_FAILURE"
+    code: 1
+  }
+  finish_time {
+    seconds: 1750669213
+    nanos: 862000000
+  }
+  failure_detail {
+    message: "Analysis of target \'//hello_from_rule:sayhello\' failed; build aborted: Analysis of target \'//hello_from_rule:sayhello\' failed"
+    analysis {
+      code: CONFIGURED_VALUE_CREATION_FAILED
+    }
+  }
+}
+}
+
+event {
+id {
+  progress {
+    opaque_count: 5
+  }
+}
+progress {
+  stderr: "\r\033[1A\033[K\r\033[1A\033[K\033[31m\033[1mERROR: \033[0mAnalysis of target \'//hello_from_rule:sayhello\' failed; build aborted\n\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\n\r\033[1A\033[K\r\033[1A\033[K\033[32mINFO: \033[0mElapsed time: 0.053s, Critical Path: 0.00s\n\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\n\r\033[1A\033[K\r\033[1A\033[K\033[32mINFO: \033[0m1 process: 1 internal.\n\033[32mAnalyzing:\033[0m target //hello_from_rule:sayhello (0 packages loaded, 0 targets configured)\n\n\r\033[1A\033[K\r\033[1A\033[K\033[31m\033[1mERROR: \033[0mBuild did NOT complete successfully\n\033[31m\033[1mFAILED:\033[0m \n\r\033[1A\033[K\033[31m\033[1mFAILED:\033[0m \n"
+}
+}
+
+event {
+id {
+  build_tool_logs {
+  }
+}
+build_tool_logs {
+  log {
+    name: "elapsed time"
+    contents: "0.053000"
+  }
+  log {
+    name: "critical path"
+    contents: "Critical Path: 0.00s, Remote (0.00% of the time): [parse: 0.00%, queue: 0.00%, network: 0.00%, upload: 0.00%, setup: 0.00%, process: 0.00%, fetch: 0.00%, retry: 0.00%, processOutputs: 0.00%, other: 0.00%, input files: 0, input bytes: 0, memory bytes: 0]\n  0.00s action \'BazelWorkspaceStatusAction stable-status.txt\'"
+  }
+  log {
+    name: "process stats"
+    contents: "1 process: 1 internal."
+  }
+  log {
+    name: "command.profile.gz"
+    uri: "file:///private/var/tmp/_bazel_ankit.kr.chahal/d539042875e87fde1f2e63c1ca4e677a/command-567c6871-8876-4ef4-a009-bad9edbf2c60.profile.gz"
+  }
+}
+}
+
+event {
+id {
+  build_metrics {
+  }
+}
+last_message: true
+build_metrics {
+  action_summary {
+    actions_executed: 1
+    action_data {
+      mnemonic: "BazelWorkspaceStatusAction"
+      actions_executed: 1
+      first_started_ms: 1750669213859
+      last_ended_ms: 1750669213860
+    }
+    runner_count {
+      name: "total"
+      count: 1
+    }
+    runner_count {
+      name: "internal"
+      count: 1
+    }
+    action_cache_statistics {
+      size_in_bytes: 1200
+      misses: 1
+      miss_details {
+      }
+      miss_details {
+        reason: DIFFERENT_DEPS
+      }
+      miss_details {
+        reason: DIFFERENT_ENVIRONMENT
+      }
+      miss_details {
+        reason: DIFFERENT_FILES
+      }
+      miss_details {
+        reason: CORRUPTED_CACHE_ENTRY
+      }
+      miss_details {
+        reason: NOT_CACHED
+      }
+      miss_details {
+        reason: UNCONDITIONAL_EXECUTION
+        count: 1
+      }
+    }
+  }
+  memory_metrics {
+  }
+  target_metrics {
+  }
+  package_metrics {
+  }
+  timing_metrics {
+    cpu_time_in_ms: 65
+    wall_time_in_ms: 32
+  }
+  cumulative_metrics {
+    num_analyses: 14
+    num_builds: 8
+  }
+  artifact_metrics {
+    source_artifacts_read {
+    }
+    output_artifacts_seen {
+      size_in_bytes: 149
+      count: 2
+    }
+    output_artifacts_from_action_cache {
+    }
+    top_level_artifacts {
+    }
+  }
+  build_graph_metrics {
+    post_invocation_skyframe_node_count: 1492
+    dirtied_values {
+      skyfunction_name: "ACTION_EXECUTION"
+      count: 1
+    }
+    changed_values {
+      skyfunction_name: "ERROR_TRANSIENCE"
+      count: 1
+    }
+    changed_values {
+      skyfunction_name: "PRECOMPUTED"
+      count: 1
+    }
+    built_values {
+      skyfunction_name: "ACTION_EXECUTION"
+      count: 1
+    }
+    evaluated_values {
+      skyfunction_name: "ACTION_EXECUTION"
+      count: 1
+    }
+    evaluated_values {
+      skyfunction_name: "BUILD_DRIVER"
+      count: 1
+    }
+    evaluated_values {
+      skyfunction_name: "CONFIGURED_TARGET"
+      count: 1
+    }
+  }
+  network_metrics {
+    system_network_stats {
+      bytes_sent: 19158016
+      bytes_recv: 10776576
+      packets_sent: 33085
+      packets_recv: 26090
+      peak_bytes_sent_per_sec: 94320013
+      peak_bytes_recv_per_sec: 53048705
+      peak_packets_sent_per_sec: 162860
+      peak_packets_recv_per_sec: 128395
+    }
+  }
+  worker_pool_metrics {
+  }
+  dynamic_execution_metrics {
+  }
+}
+}
+

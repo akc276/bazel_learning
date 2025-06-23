@@ -1,0 +1,5 @@
+load("//hello_from_rule:say_hello.bzl", "say_hello")
+say_hello(
+    name = "sayhello",
+    output_file  = "say_hello.sh",
+)
